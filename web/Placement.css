@@ -1,0 +1,102 @@
+body {
+    font-family:'Times New Roman', Times, serif ;
+    margin: 0;
+    padding: 0;
+    background: rgb(162, 206, 235);
+    background: radial-gradient(circle, rgb(200, 219, 190),  rgb(162, 206, 235) 100%);
+
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgb(162, 206, 235);
+    background: radial-gradient(circle, rgb(200, 219, 190), rgb(162, 206, 235) 100%);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .static-content {
+    margin-bottom: 20px;
+  }
+  
+  .static-content p {
+    margin-bottom: 10px;
+  }
+  
+  .static-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .static-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  .static-content ul li:before {
+    content: "\2022";
+    font-size: 18px;
+    color: #666;
+    margin-right: 10px;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table-bordered {
+    border: 1px solid #0a0a0a;
+  }
+  
+  .table-bordered th, .table-bordered td {
+    border: 1px solid #0e0d0d;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table-bordered thead {
+    background-color: #f0f0f0;
+  }
+  
+  .table-bordered thead th {
+    font-weight: bold;
+  }
+  
+  .font-weight-bold {
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  .text-capitalize {
+    text-transform: capitalize;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-2 {
+    margin-bottom: 10px;
+    font-size: medium;
+  }
+  
+  .mb-4 {
+    margin-bottom: 20px;
+  }
+  
+  .bg-primary {
+    background-color: #337ab7;
+  }
+  
+  .text-white {
+    color: #070707;
+  }

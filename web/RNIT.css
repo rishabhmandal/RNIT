@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #6CA3D6;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 2pX;
+}
+
+header .logo h1 a {
+    color: #080808;
+    text-decoration: none;
+}
+
+nav.container {
+    background-color: #6CA3D6;
+    padding: 1em;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-link, .nav-links {
+    color: #080808;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover, .nav-links:hover {
+    color: #fff;
+}
+
+.nav-item ul {
+    display: none; 
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    background-color: #6CA3D6;
+}
+
+.nav-item:hover ul {
+    display: block; 
+}
+
+.nav-item ul li {
+    margin: 0;
+}
+
+.nav-item ul li a {
+    padding: 10px;
+    display: block;
+    color: #080808;
+    text-decoration: none;
+}
+
+.nav-item ul li a:hover {
+    color: #fff;
+    background-color: #4F80A1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.Srst {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+main div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.footer {
+    background: #6CA3D6;
+    padding: 30px 0;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0;
+    padding: 0.6% 0;
+    color: #070707;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: #050505;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .row ul li {
+    margin: 0 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0 1%;
+}
+
+
+@media (max-width: 720px) {
+    .navbar-nav, .footer .row ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item, .footer .row ul li {
+        margin: 10px 0;
+    }
+}
